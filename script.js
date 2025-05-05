@@ -7,6 +7,7 @@ const $ = id => document.getElementById(id);
   const video = $('#introVid');
   const wrap  = $('#vid-wrap');
   const heart = $('#megaHeart');
+  
 
   /* 1 – once metadata is ready, schedule the drop 4.5 s in */
   video.addEventListener('loadedmetadata', () => {
